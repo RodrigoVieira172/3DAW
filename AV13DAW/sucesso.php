@@ -7,9 +7,9 @@
     <title>AV1</title>
 </head>
 <body>
-    <div class="voltar"><a href="index.html">Retornar ao menu</a></div>
-    <section class="content">
+    <div class="container-sm">
         <h1>Sucesso!</h1>
-    </section>
+        <a href="index.html">Retonar</a>
+    </div>
 </body>
 </html>

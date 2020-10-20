@@ -9,7 +9,7 @@
 <body>
     <div class="container-sm">
         <h1>Houve um equívoco</h1>
-        <a href="index.html">Retornar ao menu</a></div>
+        <a href="index.html">Retonar</a>
     </div>
 </body>
 </html>

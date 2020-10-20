@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "3daw";
-$password = "mysql123";
-$database = "3DawAv1";
+$username = "root";
+$password = "";
+$database = "av1";
 
 $conn = new mysqli($servername, $username, $password, $database);
 
@@ -10,8 +10,6 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 ?>
-<h1>Excluir o aluno?</h1>
-<form action="excluir_aluno_server.php" method="POST">
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {		
 	$mat = $_POST["matricula"];
@@ -35,4 +33,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }		
 $conn->close();
 ?>
-</form>
